@@ -1,0 +1,10 @@
+.carousel-container {
+  margin: 5rem;
+  background-color: orange;
+  padding: 1rem; /* Pridedama padding reikšmė, kad būtų gražiau matomas fono spalvos */
+  border-radius: 10px; /* Apvaliems kampams, jei reikia */
+}
+
+.carousel-inner .carousel-item {
+  color: white; /* Pridėkite baltą spalvą citatoms, kad jos būtų geriau matomos oranžiniame fone */
+}

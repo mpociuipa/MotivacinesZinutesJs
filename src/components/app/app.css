@@ -1,0 +1,30 @@
+.wrapper {
+    background-color: orange;
+    margin: 3rem;
+    padding: 5rem 25rem 5rem 25rem;
+    border-radius: 10px; /* apvalūs kampai */
+    display: flex;
+    justify-content: center; /* centruoti vidinį turinį horizontaliai */
+}
+
+.carousel-container {
+    background-color: rgb(215, 212, 212); /* fono spalva turinio viduje */
+    padding: 1rem; /* padding reiksme */
+    border-radius: 10px;
+}
+
+.carousel-inner .carousel-item {
+    color: black; /* spalva citatoms */
+}
+/* Responsive dizainas */
+@media (max-width: 768px) {
+    .wrapper {
+      padding: 2rem; /* mažesnė padding reikšmė mažesniems ekranams */
+    }
+}
+
+@media (max-width: 576px) {
+    .wrapper {
+      padding: 1rem; /* dar mažesnė padding reikšmė labai mažiems ekranams */
+    }
+}
